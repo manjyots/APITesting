@@ -1,0 +1,70 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Dummy API",
+    "line": 1,
+    "id": "dummy-api",
+    "tags": [],
+    "uri": "features/dummy1Feature.feature",
+    "elements": [
+      {
+        "id": "dummy-api;change-user-name",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Change user name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "send GET request to \"http://dummy.restapiexample.com/api/v1/employee/1\", employee name should be \" manjyot\"",
+            "match": {
+              "location": "features/step_definitions/definitions.js:11"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 860000000,
+              "error_message": "AssertionError [ERR_ASSERTION]: 'aj1' == ' manjyot'\n    + expected - actual\n\n    -aj1\n    + manjyot\n\n    at World.<anonymous> (/Users/manjyots/Downloads/APITesting/features/step_definitions/definitions.js:14:19)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:189:7)"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Dummy API",
+    "line": 1,
+    "id": "dummy-api",
+    "tags": [],
+    "uri": "features/dummyFeature.feature",
+    "elements": [
+      {
+        "id": "dummy-api;change-user-name",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Change user name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "send GET request to \"http://dummy.restapiexample.com/api/v1/employee/1\", employee name should be \"iwan\"",
+            "match": {
+              "location": "features/step_definitions/definitions.js:11"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 726000000,
+              "error_message": "AssertionError [ERR_ASSERTION]: 'aj1' == 'iwan'\n    + expected - actual\n\n    -aj1\n    +iwan\n\n    at World.<anonymous> (/Users/manjyots/Downloads/APITesting/features/step_definitions/definitions.js:14:19)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:189:7)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

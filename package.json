@@ -1,0 +1,22 @@
+{
+    "name": "apitesting",
+    "version": "1.0.0",
+    "description": "cucumber js tests",
+    "main": "",
+    "scripts": {
+        "test": "./node_modules/.bin/cucumber-js features/**/*.feature --format json:reports/cucumber_report.json || true",
+        "posttest": "node cucumber-html-report.js",
+        "json-mock": "json-mock data.json"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/got": "^8.3.4",
+        "cucumber": "^6.0.5",
+        "cucumber-html-reporter": "^5.0.2",
+        "got": "^9.2.2",
+        "json-mock": "^0.1.0",
+        "multiple-cucumber-html-reporter": "^1.13.1"
+    },
+    "screenshotsDirectory": "screenshots/"
+}
