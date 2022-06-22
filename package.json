@@ -14,7 +14,7 @@
         "@types/got": "^8.3.4",
         "cucumber": "^6.0.5",
         "cucumber-html-reporter": "^5.0.2",
-        "got": "^9.2.2",
+        "got": "^11.8.5",
         "json-mock": "^0.1.0",
         "multiple-cucumber-html-reporter": "^1.13.1"
     },
